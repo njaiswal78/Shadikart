@@ -1,0 +1,12 @@
+<Page loaded="loaded">
+
+<StackLayout orientation="vertical">
+    <Label text="Shadikart- Wedding arrangements a touch away !!" style="background-color:green;color:white;font-size:15;text-align:center;"/>
+	<Image src="res://logo" horizontalAlignment="center" />
+    <TextField hint="Email Address" text="{{ email}}" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+	<TextField hint="Password" text="{{password}}" secure="true" />
+
+	<Button text="Sign in" tap="signIn"/>
+	<Button text="Sign up for Shadikart" tap="register"/>
+</StackLayout>
+</Page>

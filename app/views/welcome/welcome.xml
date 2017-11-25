@@ -1,0 +1,9 @@
+<Page loaded="loaded">
+    <StackLayout>
+        <Image src="res://logo" horizontalAlignment="center"/>
+ <Label text="Shadikart- Wedding arrangements a touch away !!" style="background-color:blue;color:white;font-size:25;text-align:center;"/>
+
+
+        <Button text="Add items" tap="items" />
+    </StackLayout>
+</Page>

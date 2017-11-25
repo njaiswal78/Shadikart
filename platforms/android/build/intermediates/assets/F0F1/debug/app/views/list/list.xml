@@ -1,0 +1,18 @@
+<Page loaded="loaded">
+    <StackLayout>
+
+         <Label text="You are logged in successfully!!" style="background-color:white;color:green;font-size:20;text-align:center;"/>
+
+        <Image src="res://logo" horizontalAlignment="center"/>
+
+        <Button text="Add items" tap="items" />
+        <Button text="Logout" tap="logout" />
+<Page.actionBar>
+    <ActionBar title="Groceries">
+        <ActionBar.actionItems>
+            <ActionItem text="Share" tap="share" ios.position="right" />
+        </ActionBar.actionItems>
+    </ActionBar>
+</Page.actionBar>
+    </StackLayout>
+</Page>

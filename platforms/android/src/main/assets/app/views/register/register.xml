@@ -1,0 +1,13 @@
+<Page loaded="loaded">
+    <StackLayout>
+        <Label text="Registraion Page!" style="background-color:red;color:white;font-size:20;text-align:center;"/>
+
+        <Image src="res://logo" horizontalAlignment="center"/>
+
+        <TextField text="{{ email }}" id="email" hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+        <TextField text="{{ mobile }}" id="mobile" hint="Mobile Number" keyboardType="phone"/>
+        <TextField text="{{ password }}" secure="true" hint="Password" />
+
+        <Button text="Sign Up" tap="register" />
+    </StackLayout>
+</Page>
